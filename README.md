@@ -59,7 +59,7 @@ Replace yourpassword with your MySQL root password.
 4. Run the `BankingApp.java` file.
 
 ## Project Structure
-      ```src
+   ```src
       src
          └── Banking_System
          ├── AccountManager.java
