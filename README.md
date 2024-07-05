@@ -22,20 +22,20 @@ This is a simple banking system project implemented in Java. It allows users to 
 1. Install MySQL and create a database named `banking_system`.
 2. Create the necessary tables using the following SQL statements:
 
-   ```sql
-   CREATE TABLE accounts (
-      account_number BIGINT PRIMARY KEY,
-      fullname VARCHAR(255),
-      email VARCHAR(255) UNIQUE,
-      balance DECIMAL(10, 2),
-      security_pin CHAR(4)
-   );
+      ```sql
+      CREATE TABLE accounts (
+         account_number BIGINT PRIMARY KEY,
+         fullname VARCHAR(255),
+         email VARCHAR(255) UNIQUE,
+         balance DECIMAL(10, 2),
+         security_pin CHAR(4)
+      );
 
-   CREATE TABLE users (
-      fullname VARCHAR(255),
-      email VARCHAR(255) PRIMARY KEY,
-      password VARCHAR(255)
-   );
+      CREATE TABLE users (
+         fullname VARCHAR(255),
+         email VARCHAR(255) PRIMARY KEY,
+         password VARCHAR(255)
+      );
 
 
 
@@ -43,10 +43,10 @@ This is a simple banking system project implemented in Java. It allows users to 
 
 1. Open the `BankingApp.java` file.
 2. Update the database connection details:
-   ```java
-   private static final String url = "jdbc:mysql://localhost:3306/banking_system";
-   private static final String username = "root";
-   private static final String password = "yourpassword";
+      ```java
+      private static final String url = "jdbc:mysql://localhost:3306/banking_system";
+      private static final String username = "root";
+      private static final String password = "yourpassword";
 
 Replace yourpassword with your MySQL root password.
 
@@ -59,17 +59,12 @@ Replace yourpassword with your MySQL root password.
 4. Run the `BankingApp.java` file.
 
 ## Project Structure
-      ```src
          src
             └── Banking_System
             ├── AccountManager.java
             ├── Accounts.java
             ├── BankingApp.java
             └── User.java
-
-
-
-
 
 ## Usage
 
