@@ -19,7 +19,7 @@ This is a simple banking system project implemented in Java. It allows users to 
 
 ## Database Setup
 
-1. Install MySQL and create a database named             `banking_system`.
+1. Install MySQL and create a database named `banking_system`.
 2. Create the necessary tables using the following SQL statements:
 
    ```sql
@@ -59,13 +59,13 @@ Replace yourpassword with your MySQL root password.
 4. Run the `BankingApp.java` file.
 
 ## Project Structure
-   ```src
-      src
-         └── Banking_System
-         ├── AccountManager.java
-         ├── Accounts.java
-         ├── BankingApp.java
-         └── User.java
+      ```src
+         src
+            └── Banking_System
+            ├── AccountManager.java
+            ├── Accounts.java
+            ├── BankingApp.java
+            └── User.java
 
 
 
