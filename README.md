@@ -69,6 +69,8 @@ Replace yourpassword with your MySQL root password.
 
 
 
+
+
 ## Usage
 
 1. Register a new user.
